@@ -1,0 +1,83 @@
+.top-votes .alert p {
+  margin-bottom: 0;
+}
+
+.top-votes-table thead th {
+  background-color: rgba(0, 0, 0, 0.05);
+  font-weight: 700;
+}
+.top-votes-table th, .top-votes-table td {
+  text-align: center;
+  vertical-align: middle;
+}
+.top-votes-table__head {
+  vertical-align: middle;
+}
+.top-votes-table__challenger td:first-child {
+  background-color: #f4695b;
+  color: #fff;
+  font-weight: 700;
+}
+.top-votes-table__self {
+  background-color: #d4edda;
+}
+.top-votes-table__self td:first-child {
+  background-color: #7ac78d !important;
+}
+
+.top-votes-winners {
+  margin-top: 1rem;
+}
+
+.top-votes-exchange .card-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.top-votes-exchange__balance {
+  margin-left: auto;
+}
+.top-votes-exchange .alert p {
+  margin-bottom: 0;
+}
+
+.top-votes-side {
+  width: 100%;
+  border-collapse: collapse;
+}
+.top-votes-side tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.top-votes-side tr td {
+  padding: 4px;
+  border: 0;
+}
+.top-votes-side__votes {
+  font-size: 10px;
+}
+.top-votes-side__my-votes {
+  margin-top: 15px;
+  text-align: center;
+}
+
+td.top-votes-side__medal {
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+tr.top-votes-side__medal:nth-child(1) td.top-votes-side__medal {
+  background-image: url("./img/1.png");
+}
+
+tr.top-votes-side__medal:nth-child(2) td.top-votes-side__medal {
+  background-image: url("./img/2.png");
+}
+
+tr.top-votes-side__medal:nth-child(3) td.top-votes-side__medal {
+  background-image: url("./img/3.png");
+}

@@ -1,0 +1,112 @@
+.monitoring__server {
+  margin-bottom: 25px;
+  border: 0;
+  font-weight: 400;
+}
+
+.monitoring__server-header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.monitoring__server-name {
+  text-decoration: none;
+  color: #212121;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.monitoring__server-name:hover {
+  opacity: 0.6;
+}
+
+.monitoring__server-icon {
+  width: 32px;
+  vertical-align: middle;
+}
+
+.monitoring__progress {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 15px;
+  margin-top: 5px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.monitoring__progress-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  transition: width 0.6s ease;
+}
+
+.monitoring__progress-bar_online {
+  background-color: #4466e6;
+}
+
+.monitoring__progress-bar_offline {
+  background-color: #f4695b;
+}
+
+.monitoring__rec {
+  text-align: center;
+}
+
+.monitoring__rec p {
+  margin: 0;
+}
+
+.monitoring__stats {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-around;
+}
+
+.monitoring__stat {
+  display: inline-block;
+  width: 25%;
+  border-right: 2px solid #f0f0f0;
+  text-align: center;
+}
+
+.monitoring__stat:last-child {
+  border-right: 0;
+}
+
+.monitoring__stat-title {
+  margin: 0;
+  opacity: 0.7;
+}
+
+.monitoring__stat-value {
+  font-size: 34px;
+  font-weight: 300;
+}
+
+.monitoring__title {
+  margin-top: 30px;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.monitoring__canvas {
+  max-height: 250px;
+}
+

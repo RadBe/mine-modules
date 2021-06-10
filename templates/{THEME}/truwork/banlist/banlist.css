@@ -1,0 +1,33 @@
+#banlist {
+  position: relative;
+  z-index: 1;
+}
+
+#banlist .table thead th {
+  border: 0;
+}
+
+#banlist .table th {
+  opacity: 0.75;
+  font-weight: 700;
+}
+
+#banlist .table td {
+  vertical-align: middle;
+}
+
+#banlist img {
+  width: 32px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.banlist-permanent {
+  color: #d60000;
+}
+
+.banlist-empty {
+  text-align: center;
+  font-weight: 700;
+}
+
